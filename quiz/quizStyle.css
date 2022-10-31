@@ -1,9 +1,32 @@
 :root {
-
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
+    margin: 0;
+}
 
+header {
+    padding: 0.5rem;
+    background-color: violet;
+    color: white;
+}
+
+nav {
+    text-align: right;
+}
+
+nav, a {
+    padding:  0.4rem;
+    text-decoration: none;
+}
+
+.quiz-main {
+    margin: 2rem auto;
+    width: 80%;
+    text-align: center;
 }
 
 footer {
@@ -29,9 +52,23 @@ ul {
 
 a, img, li {
     display: inline;
+    color: white;
 }
 
 img {
     width: 40px;
     padding: 0.2rem;
+}
+
+#submit-btn {
+    background: violet;
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: 1rem auto;
+    display: block;
 }

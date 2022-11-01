@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-:root {
 
-}
 
 body {
     display: flex;
@@ -19,9 +17,7 @@ body {
 
 }
 
-label {
-    
-}
+
 
 footer {
     text-align: center;

@@ -1,9 +1,95 @@
-:root {
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
 
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    padding: 0;
+    margin: 0;
+    
+    --primary-color: orange;
 }
 
 body {
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
 
+header {
+    padding: 0.8rem 0rem;
+    background-color: orange;
+    color: white;
+    
+}
+
+#top-header {
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+#headings {
+    text-align: center;
+    margin: auto;
+    max-width: 60%;
+    margin-top: 7rem;
+}
+
+h1 {
+    margin: 3rem 0rem ;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+h3 {
+    margin: 3rem 0rem;
+}
+
+nav {
+    text-align: right;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    display: flex;
+    flex-flow: wrap row-reverse;
+}
+
+nav, a {
+    padding:  0.4rem;
+    text-decoration: none;
+}
+
+form {
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+
+label {
+    font-size: 20px;
+}
+
+.side-input {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+    display: block;
+   
+}
+
+#output {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 6rem;
 }
 
 footer {
@@ -29,9 +115,24 @@ ul {
 
 a, img, li {
     display: inline;
+    color: white;
 }
 
 img {
     width: 40px;
     padding: 0.2rem;
 }
+
+#calc-btn {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: 3rem auto;
+    display: block;
+}
+

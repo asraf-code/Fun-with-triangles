@@ -8,19 +8,27 @@
     <link rel="stylesheet" href="AOTStyle.css">
 </head>
 <body>
-    <header>Fun With Triangles</header>
-    <nav>
+    <header>
+      <div id="top-header">Fun With Triangles</div>
+      <nav>
         <a href="/istriangle.html">Is Triangle?</a>
-        <a href="/quiz/quiz.html">Traingle Quiz</a>
-        <a href="/Calculate-Hypotenuse/hypotenuse.html">Calculate Hypotenuse</a>
+        <a href="/quiz/quiz.html">Quiz</a>
+        <a href="/Calculate-Hypotenuse/hypotenuse.html">Hypotenuse</a>
         <a href="/AreaofTriangle/areaoftriangle.html">Area of a Triangle</a>
     </nav>
-    <h1>Area of Triangle</h1>
-    <h2>Area of Triangle = 1/2(Base*Height)</h2>
-    <label>Base(in cm)</label>
-    <input type="number" class="side-input">
-    <label>Height(in cm)</label>
-    <input type="number" class="side-input">
+    </header>
+    <div id="headings">
+      <h1>Area of Triangle</h1>
+      <h2>Area of Triangle = 1/2(Base*Height)</h2>
+    </div>
+    <form>
+      <div id="input-container">
+        <label>Base(in cm)</label>
+        <input type="number" class="side-input">
+        <label>Height(in cm)</label>
+        <input type="number" class="side-input">
+      </div>
+    </form>
     <button id="calc-btn">Calculate Area</button>
     <p id="output"></p>
 

@@ -8,20 +8,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>Fun With Triangles</header>
-    <nav>
+    <header>
+      <div id="top-header">
+      Fun With Triangles
+      </div>
+      <nav>
         <a href="/istriangle.html">Is Triangle?</a>
-        <a href="/quiz/quiz.html">Traingle Quiz</a>
-        <a href="/Calculate-Hypotenuse/hypotenuse.html">Calculate Hypotenuse</a>
+        <a href="/quiz/quiz.html">Quiz</a>
+        <a href="/Calculate-Hypotenuse/hypotenuse.html">Hypotenuse</a>
         <a href="/AreaofTriangle/areaoftriangle.html">Area of a Triangle</a>
     </nav>
-    <h1>Is Triangle?</h1>
-    <label for="angle1">Angle 1</label>
-    <input type="number" class="angle-input">
-    <label for="angle2">Angle 2</label>
-    <input type="number" class="angle-input">
-    <label for="angle3">Angle 3</label>
-    <input type="number" class="angle-input">
+    </header>
+    <div id="headings">
+      <h1>Is Triangle?</h1>
+    </div>
+    <form>
+      <div id="input-container">
+        <label for="angle1">Angle 1</label>
+        <input type="number" class="angle-input">
+        <label for="angle2">Angle 2</label>
+        <input type="number" class="angle-input">
+        <label for="angle3">Angle 3</label>
+        <input type="number" class="angle-input">
+      </div>
+    </form>
+
     <button id="isTriangle-btn">Is Triangle?</button>
     <p id="output"></p>
 

@@ -136,3 +136,6 @@ img {
     display: block;
 }
 
+#description {
+    font-size: 20px;
+}

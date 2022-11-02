@@ -113,6 +113,13 @@ ul {
     text-align: center;
 }
 
+#formula {
+    display: block;
+    margin: auto;
+    color: none;
+    width:auto
+}
+
 a, img, li {
     display: inline;
     color: white;
@@ -136,3 +143,6 @@ img {
     display: block;
 }
 
+#description {
+    font-size: 20px;
+}

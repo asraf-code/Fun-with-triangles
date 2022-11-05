@@ -8,13 +8,14 @@ submitBtn.addEventListener("click", calculateScore);
 
 function calculateScore() {
     let score = 0;
-    let index = 0;
+    
     const formResults = new FormData(quizForm);
-    for(let value of formResults.values()) {
-        if (value === correctAnswers[index]) {
+    for (let i of formResults) {
+        const questionNumber = Number(i[0]);
+        if (i[1] === correctAnswers[questionNumber]) {
             score = score + 1;
+            console.log(i)
         }
-        index = index + 1;
     }
 
     outputMessage.innerText = "Your score is " + score;

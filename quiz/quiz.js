@@ -14,7 +14,6 @@ function calculateScore() {
         const questionNumber = Number(i[0]);
         if (i[1] === correctAnswers[questionNumber]) {
             score = score + 1;
-            console.log(i)
         }
     }
 
